@@ -1,0 +1,133 @@
+.mb-4 {
+    color: white;
+    justify-self: center;
+    align-self: center;
+    /* padding: 5%; */
+    margin: auto;
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 3.5rem !important;
+}
+
+/* .about-header, .mission-header {
+    background: blue;
+} */
+
+.about-header:hover, .mission-header:hover {
+    color: white;
+    text-decoration: underline;   
+}
+
+.prototype-label {
+    display: flex;
+    flex-direction: row;
+    font-style: italic;
+}
+
+.row {
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    
+}
+
+.text-lg-right {
+    text-align: right !important;
+}
+
+
+
+
+.fab {
+    padding: 10px;
+}
+
+
+@media screen and (min-width: 567px ) {
+    col-sm-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    } 
+    
+    
+}
+
+@media screen and (max-width: 960px) {
+
+    .prototype-label {
+        white-space: nowrap;
+    }
+
+    span {
+        white-space: nowrap;
+        
+    }
+
+    .text-lg-right {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    .footer-logo {
+        display: flex;
+        margin: auto;
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .capsule-instruct {
+        width: 200px;
+        height: 160px;
+    }
+
+    .prototype-capsule {
+        width: 200px;
+        height: 200px;
+    }
+    img.navbar-logo {
+        margin-left: 20px;
+        width: 10%;
+        height: 10%;
+    }
+
+    ol, ul {
+        padding-left: 0rem;
+    }
+
+    .email-form {
+        display: flex;
+        /* width: 80%; */
+        margin: auto;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .row {
+        display: flex;
+        margin-right: -15px;
+        margin-left: -15px;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-content: space-around;
+        align-items: center;
+    }
+}

@@ -1,0 +1,44 @@
+.contact-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+    min-height: 100vh;
+    
+}
+.contact-container:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background: url("https://comicattack.net/wp-content/uploads/2020/07/Capsule-corp-night-1024x576.png") no-repeat center;
+    
+}
+.contact-info {
+    border-radius: 15px;
+    flex: 0 1 40%;
+    padding: 40px;
+    color: white;
+    display: flex;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: center;
+}
+
+.field {
+    color: black;
+}
+
+textarea {
+    min-width: 50%;
+    min-height: auto;
+} 
