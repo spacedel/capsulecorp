@@ -63,7 +63,7 @@ function Shop() {
                       </div>
                       <div class="text-lg-right col-sm-12">
                         <p class="copyright text-right">
-                          <span class="copy-left">© 2021 CapsuleCorp LLC</span>
+                          <span class="copy-left">© 2021 CapsuleCorp</span>
                         </p>
                       </div>
                     </div>
