@@ -21,9 +21,7 @@ function Contact() {
         </div>
         <div className="contact-container">
           <div className="contact-info">
-            <div className="left-side">
-              <h3></h3>
-            </div>
+            <div className="left-side"></div>
             <div className="right-side">
               <h2 className='contact-us'>Contact Us</h2>
               
@@ -70,7 +68,7 @@ function Contact() {
                   </div>
                   <div class="text-lg-right col-sm-12">
                     <p class="copyright text-right">
-                      <span class="copy-left">© 2021 CapsuleCorp LLC</span>
+                      <span class="copy-left">© 2021 CapsuleCorp</span>
                     </p>
                   </div>
                 </div>

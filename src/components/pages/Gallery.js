@@ -7,34 +7,34 @@ function Gallery() {
       <>
         <div className="common-container">
           <div className="container">
-            <div class="header">
+            <div className="header">
               <h1>Gallery</h1>
               <p>Capsules</p>
             </div>
-            <div class="row">
-              <div class="column">
-                <img src="./images/capsule_variations/capsule_1000.png" width="100%" alt="1000"></img>
-                <img src="./images/capsule_variations/capsule_999.png" width="100%" alt="999"></img>
-                <img src="./images/capsule_variations/capsule_998.png" width="100%" alt="998"></img>
-                <img src="./images/capsule_variations/capsule_997.png" width="100%" alt="997"></img>
+            <div className="row">
+              <div className="column">
+                <img src="https://ipfs.io/ipfs/QmapsA1K5zn7g9TLPUEZuXxabaw8c6pnSUcUjCkdi2Hj3c" width="100%" alt="1000"></img>
+                <img src="https://ipfs.io/ipfs/QmZ2esqdjswcnFZyJQ9U92DTZigNU3dTGVh1mCpXH8QgJh" width="100%" alt="999"></img>
+                <img src="https://ipfs.io/ipfs/QmaxrNAe5D3uTKahK4dwAXC92kBTrpoAHpJz9tDftSCXFb" width="100%" alt="998"></img>
+                <img src="https://ipfs.io/ipfs/Qmdec8ugTK8QRtNoraVCZHXGkH4XMQfUjSPHBb2kY4YMXi" width="100%" alt="997"></img>
               </div>
-              <div class="column">
-                <img src="./images/capsule_variations/capsule_996.png" width="100%" alt="996"></img>
-                <img src="./images/capsule_variations/capsule_995.png" width="100%" alt="995"></img>
-                <img src="./images/capsule_variations/capsule_994.png" width="100%" alt="994"></img>
-                <img src="./images/capsule_variations/capsule_993.png" width="100%" alt="993"></img>
+              <div className="column">
+                <img src="https://ipfs.io/ipfs/QmVjDAFXwKzp7ii6eUY6cCF1bhpZEDUoHnen1mAKBtZ2gE" width="100%" alt="996"></img>
+                <img src="https://ipfs.io/ipfs/QmZZA4etkHHXtqpJHPf8XWdkLCsvyAy7uSawHBT5LaiUjB" width="100%" alt="995"></img>
+                <img src="https://ipfs.io/ipfs/QmaD9V3pqfUEy8i8FbX47Ui7cX27VRigmL1RV6RDGc8hFY" width="100%" alt="994"></img>
+                <img src="https://ipfs.io/ipfs/QmVetGyVPYhZEfRRE3uLfRwgp5B8z9wXmK9369qe2HrfJh" width="100%" alt="993"></img>
               </div>
-              <div class="column">
-                <img src="./images/capsule_variations/capsule_992.png" width="100%" alt="992"></img>
-                <img src="./images/capsule_variations/capsule_991.png" width="100%" alt="991"></img>
-                <img src="./images/capsule_variations/capsule_990.png" width="100%" alt="990"></img>
-                <img src="./images/capsule_variations/capsule_989.png" width="100%" alt="989"></img>
+              <div className="column">
+                <img src="https://ipfs.io/ipfs/QmX7JGmj3ZHZy1vGMU1rNN88tFtDWYof4iTDia1B4jUPUh" width="100%" alt="992"></img>
+                <img src="https://ipfs.io/ipfs/QmP5B6AgtuR45SoYBpcDSGb2txNAGXG7WaqZwGs4HPQg5L" width="100%" alt="991"></img>
+                <img src="https://ipfs.io/ipfs/QmfKNPEToh3zY9ipuRzBwpue2NrPJTWFxw1GZyMFTG8re9" width="100%" alt="990"></img>
+                <img src="https://ipfs.io/ipfs/QmQt2jHkaTXJhkEuy1JpWn8MK7YwZDXNTywokAREjMv2xW" width="100%" alt="989"></img>
               </div>
-              <div class="column">
-                <img src="./images/capsule_variations/capsule_988.png" width="100%" alt="988"></img>
-                <img src="./images/capsule_variations/capsule_987.png" width="100%" alt="987"></img>
-                <img src="./images/capsule_variations/capsule_986.png" width="100%" alt="986"></img>
-                <img src="./images/capsule_variations/capsule_985.png" width="100%" alt="985"></img>
+              <div className="column">
+                <img src="https://ipfs.io/ipfs/Qmd3erkqG7pdbfWL6p1bZWheBvM9GjBevWQd7WUmxnyjS4" width="100%" alt="988"></img>
+                <img src="https://ipfs.io/ipfs/QmdkXvgNMW3QZfJ4v5A3t2P7Epgj2fa1tB5GnTCYU946Fm" width="100%" alt="987"></img>
+                <img src="https://ipfs.io/ipfs/QmNq8FPDWtjujnQ7jvDpNeUNMf6WxqaeDH6A2ED4wZQ42G" width="100%" alt="986"></img>
+                <img src="https://ipfs.io/ipfs/QmRQyJgCTN92zg7xz24BvmCg949apwbUpX5FRbWnhrC4MG" width="100%" alt="985"></img>
               </div>
             </div>
           </div>
@@ -64,15 +64,15 @@ function Gallery() {
                 <div className="row">
                   <div className="text-lg-right col-sm-12">
                     <a href="https://www.instagram.com/spacedel">
-                      <i class="fab fa-instagram"></i>
+                      <i className="fab fa-instagram"></i>
                     </a>
                     <a href="https://twitter.com/cryptosauce6">
-                      <i class="fab fa-twitter"></i>
+                      <i className="fab fa-twitter"></i>
                     </a>
                   </div>
-                  <div class="text-lg-right col-sm-12">
-                    <p class="copyright text-right">
-                      <span class="copy-left">© 2021 CapsuleCorp LLC</span>
+                  <div className="text-lg-right col-sm-12">
+                    <p className="copyright text-right">
+                      <span className="copy-left">© 2021 CapsuleCorp</span>
                     </p>
                   </div>
                 </div>
