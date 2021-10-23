@@ -2,7 +2,6 @@
     color: white;
     justify-self: center;
     align-self: center;
-    /* padding: 5%; */
     margin: auto;
 }
 
@@ -10,13 +9,25 @@
     margin-bottom: 3.5rem !important;
 }
 
-/* .about-header, .mission-header {
-    background: blue;
-} */
-
 .about-header:hover, .mission-header:hover {
     color: white;
     text-decoration: underline;   
+}
+
+.email-submit {
+    
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-size: 14px;
+    text-shadow: black;
+    margin-left: 5%;
+    padding: 12px;
+}
+
+.buy-button-style {
+    font-family: 'Arial Narrow Bold', sans-serif;
 }
 
 .prototype-label {
@@ -57,13 +68,70 @@
 
 @media screen and (max-width: 960px) {
 
+    .container-fluid {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    
+    }
+
+    .row {
+        display: flex;
+        margin-right: -15px;
+        margin-left: -15px;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-content: space-around;
+        align-items: center;
+    }
+
+    .plate-img {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+    }
+
+    img.prototype-capsule {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        background: black;
+    
+    }
+
+    .mb-4, .my-4 {
+        margin-bottom: 1.5rem !important;
+    }
+
+    .col-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
     .prototype-label {
         white-space: nowrap;
+        justify-content: start;
     }
 
     span {
         white-space: nowrap;
+        justify-content: left;
         
+    }
+
+    .email-container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+
+    img.prototype-capsule {
+        width: 100%;
+        height: auto;
     }
 
     .text-lg-right {
@@ -75,30 +143,30 @@
     .footer-logo {
         display: flex;
         margin: auto;
-        max-width: 150px;
-        max-height: 150px;
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .email-submit {
+        margin-top: 15px;
     }
 
     p {
         margin-bottom: 0;
     }
 
-    img {
-        width: 100%;
-        height: auto;
-        max-width: 300px;
-        max-height: 300px;
-    }
 
     .capsule-instruct {
-        width: 200px;
-        height: 160px;
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
     }
 
     .prototype-capsule {
         width: 200px;
         height: 200px;
     }
+
     img.navbar-logo {
         margin-left: 20px;
         width: 10%;
@@ -120,14 +188,4 @@
         flex-direction: column;
     }
 
-    .row {
-        display: flex;
-        margin-right: -15px;
-        margin-left: -15px;
-        justify-content: space-evenly;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        align-content: space-around;
-        align-items: center;
-    }
 }
