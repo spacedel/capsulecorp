@@ -13,28 +13,28 @@ function Gallery() {
             </div>
             <div class="row">
               <div class="column">
-                <img src="./capsule_variations/capsule_1000.png" width="100%" alt="1000"></img>
-                <img src="./capsule_variations/capsule_999.png" width="100%" alt="999"></img>
-                <img src="./capsule_variations/capsule_998.png" width="100%" alt="998"></img>
-                <img src="./capsule_variations/capsule_997.png" width="100%" alt="997"></img>
+                <img src="./images/capsule_variations/capsule_1000.png" width="100%" alt="1000"></img>
+                <img src="./images/capsule_variations/capsule_999.png" width="100%" alt="999"></img>
+                <img src="./images/capsule_variations/capsule_998.png" width="100%" alt="998"></img>
+                <img src="./images/capsule_variations/capsule_997.png" width="100%" alt="997"></img>
               </div>
               <div class="column">
-                <img src="./capsule_variations/capsule_996.png" width="100%" alt="996"></img>
-                <img src="./capsule_variations/capsule_995.png" width="100%" alt="995"></img>
-                <img src="./capsule_variations/capsule_994.png" width="100%" alt="994"></img>
-                <img src="./capsule_variations/capsule_993.png" width="100%" alt="993"></img>
+                <img src="./images/capsule_variations/capsule_996.png" width="100%" alt="996"></img>
+                <img src="./images/capsule_variations/capsule_995.png" width="100%" alt="995"></img>
+                <img src="./images/capsule_variations/capsule_994.png" width="100%" alt="994"></img>
+                <img src="./images/capsule_variations/capsule_993.png" width="100%" alt="993"></img>
               </div>
               <div class="column">
-                <img src="./capsule_variations/capsule_992.png" width="100%" alt="992"></img>
-                <img src="./capsule_variations/capsule_991.png" width="100%" alt="991"></img>
-                <img src="./capsule_variations/capsule_990.png" width="100%" alt="990"></img>
-                <img src="./capsule_variations/capsule_989.png" width="100%" alt="989"></img>
+                <img src="./images/capsule_variations/capsule_992.png" width="100%" alt="992"></img>
+                <img src="./images/capsule_variations/capsule_991.png" width="100%" alt="991"></img>
+                <img src="./images/capsule_variations/capsule_990.png" width="100%" alt="990"></img>
+                <img src="./images/capsule_variations/capsule_989.png" width="100%" alt="989"></img>
               </div>
               <div class="column">
-                <img src="./capsule_variations/capsule_988.png" width="100%" alt="988"></img>
-                <img src="./capsule_variations/capsule_987.png" width="100%" alt="987"></img>
-                <img src="./capsule_variations/capsule_986.png" width="100%" alt="986"></img>
-                <img src="./capsule_variations/capsule_985.png" width="100%" alt="985"></img>
+                <img src="./images/capsule_variations/capsule_988.png" width="100%" alt="988"></img>
+                <img src="./images/capsule_variations/capsule_987.png" width="100%" alt="987"></img>
+                <img src="./images/capsule_variations/capsule_986.png" width="100%" alt="986"></img>
+                <img src="./images/capsule_variations/capsule_985.png" width="100%" alt="985"></img>
               </div>
             </div>
           </div>
