@@ -2,9 +2,11 @@ import React from 'react';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../Footer.css';
 import '../Contact.css';
+import Form from '../Form';
+import Newsletter from '../Newsletter';
 
 function Contact() {
-  
+
   return (
     <>
       <div className="common-container">
@@ -14,6 +16,7 @@ function Contact() {
             width="100%"
             height="600px"
             alt="capsulecorp"
+            className='capsulecorp-night'
           ></img>
         </div>
         <div className="contact-container">
@@ -23,9 +26,12 @@ function Contact() {
             </div>
             <div className="right-side">
               <h2 className='contact-us'>Contact Us</h2>
-              <input type="text" className="field-name" placeholder="Name"></input>
+              
+              <Form />
+              
+              {/* <input type="text" className="field-name" placeholder="Name"></input>
               <input type="email" className="field-email" placeholder="Email"></input>
-              <textarea className="field-message" placeholder="Message"></textarea>
+              <textarea className="field-message" placeholder="Message"></textarea> */}
             </div>
           </div>
           {/* <img src="./images/Capsule-corp-night.png" width="100%" height="600px" alt="capsulecorp">
@@ -40,34 +46,7 @@ function Contact() {
                     Join Us! Get on the list now!
                   </span>
                   <br></br>
-                  <div className="d-flex email-flex">
-                    <br></br>
-                    <form
-                      id="email-submit"
-                      method="post"
-                      name="mc-embedded-subscribe-form"
-                      target="_blank"
-                      className="email-form"
-                    >
-                      <input
-                        id="email-address"
-                        className="m-0 email-input-text"
-                        placeholder="Enter Email Address here"
-                        name="EMAIL"
-                        required
-                        value
-                      ></input>
-                      <div aria-hidden="true">
-                        <button
-                          name="subscribe"
-                          className="email-submit"
-                          type="submit"
-                        >
-                          Submit
-                        </button>
-                      </div>
-                    </form>
-                  </div>
+                  <Newsletter />
                 </div>
               </div>
               <div className="col-12 col-lg-4 order-first">

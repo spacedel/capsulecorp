@@ -29,16 +29,73 @@
     display: flex;
 }
 
-.contact-us {
-    display: flex;
-    justify-content: center;
+.contact-submit{
+    border-radius:28px;
+	  display:inline-block;
+	  cursor:pointer;
+	  color:black;
+	  font-size:17px;
+	  text-shadow:black;
 }
 
 .field {
     color: black;
 }
 
+.capsulecorp-night {
+    width: 100%;
+    height: auto;
+}
+
+.field-name, .field-email, .field-message, .contact-submit {
+    width: 100%;
+    margin-top: 30px;
+    background: white;
+    color: black;
+    width: 200px;
+}
+
+.newsletter-email {
+    width: 50%;
+}
+
+.newsletter-submit {
+    margin-left: 5px;
+    border-radius:28px;
+	  display:inline-block;
+	  cursor:pointer;
+	  color: black;
+	  font-size: 14px;
+      padding: 5px;
+	  text-shadow:black;
+}
+
+
 textarea {
     min-width: 50%;
     min-height: auto;
+    color: black;
 } 
+
+@media screen and (max-width: 960px ) {
+    .field-name, .field-email, .field-message {
+        width: 100%;
+        margin-top: 30px;
+        background: white;
+        color: black;
+        width: 200px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 961px ) {
+    .field-name, .field-email, .field-message {
+        width: 100%;
+        margin-top: 30px;
+        background: white;
+        color: black;
+    }
+    
+    
+}

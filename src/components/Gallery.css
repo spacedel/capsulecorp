@@ -33,6 +33,23 @@ body {
     vertical-align: middle;
     width: 100%;
 }
+
+/* get on the list submit button styling*/
+.email-submit {
+    
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-size: 14px;
+    text-shadow: black;
+    margin-left: 5%;
+    padding: 12px;
+}
+
+.buy-button-style {
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
   
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {

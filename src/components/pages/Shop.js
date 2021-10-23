@@ -1,13 +1,14 @@
 import React from 'react';
 import '../Shop.css';
 import '../Button.css';
+import Newsletter from '../Newsletter';
 
 function Shop() {
     return (
         <>
             <div className='common-container'>
               < div className='mb-4 mb-lg-5 container'>
-                <img src='./images/capsule-corporation.png' width='100%' height='600px' alt='capsulecorp'></img>
+                <img src='./images/capsule-corporation.png' className='capsulecorp' width='100%' height='600px' alt='capsulecorp'></img>
               </div>
               <div className='px-4 mt-md-4 container'>
                 <div className='mb-5 row'>
@@ -17,7 +18,7 @@ function Shop() {
                     </div>
                     <div className='my-lg-auto col-12 offset-lg-1'>
                       <div className='common-container'>
-                        <img src='./images/img-1.png' width='200px' height='200px' alt='capsule'></img>
+                        <img src='./images/img-1.png' className='capsule' width='200px' height='200px' alt='capsule'></img>
                       </div>
                     </div>
                   </div>
@@ -38,34 +39,7 @@ function Shop() {
                         Join Us! Get on the list now!
                       </span>
                       <br></br>
-                      <div className="d-flex email-flex">
-                        <br></br>
-                        <form
-                          id="email-submit"
-                          method="post"
-                          name="mc-embedded-subscribe-form"
-                          target="_blank"
-                          className="email-form"
-                        >
-                          <input
-                            id="email-address"
-                            className="m-0 email-input-text"
-                            placeholder="Enter Email Address here"
-                            name="EMAIL"
-                            required
-                            value
-                          ></input>
-                          <div aria-hidden="true">
-                            <button
-                              name="subscribe"
-                              className="email-submit"
-                              type="submit"
-                            >
-                              Submit
-                            </button>
-                          </div>
-                        </form>
-                      </div>
+                      <Newsletter />
                     </div>
                   </div>
                   <div className="col-12 col-lg-4 order-first">
