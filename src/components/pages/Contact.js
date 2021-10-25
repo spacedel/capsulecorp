@@ -59,7 +59,7 @@ function Contact() {
               <div className="order-last my-auto text-center col-lg-4 col-sm-12 col-12">
                 <div className="row">
                   <div className="text-lg-right col-sm-12">
-                    <a href="https://www.instagram.com/spacedel">
+                    <a href="https://www.instagram.com/_thecapsulecorporation">
                       <i class="fab fa-instagram"></i>
                     </a>
                     <a href="https://twitter.com/cryptosauce6">
