@@ -16,7 +16,7 @@ function About() {
                       <h3 className='about-header'>Welcome to Capsule Corp.</h3>
                       <div className='col'>
                       <p>
-                        Items such as Vehicles, Houses, and refrigerators are stored within capsules. Some may contain other items increasing the capsule's convenience and utility as a storage device (portable shelters and vehicles which could also contain emergency supplies. Comforts like a kitchens, baths and restroom facilities). Ideal from a logistical standpoint, they allow for the easy transportation of large numbers of materials.
+                        Items such as vehicles, houses, and refrigerators are stored within capsules. Some may contain other items increasing the capsule's convenience and utility as a storage device (portable shelters and vehicles which could also contain emergency supplies. Comforts like kitchens, baths and restroom facilities). Ideal from a logistical standpoint, they allow for the easy transportation of large numbers of materials.
                       </p>
                       </div>
                       <div className='my-lg-auto col-lg-4 col-12 offset-lg-1'>
