@@ -14,7 +14,7 @@ function Shop() {
                 <div className='mb-5 row'>
                   <div className='mb-4 row'>
                     <div className='col'>
-                      CPSL is a collection of 1000 Capsules; 10 of each kind. It is a unique NFT digital collectible on the Ethereum blockchain produced by CapsuleCorp.
+                      CPSL is a collection of Capsules. It is a unique NFT digital collectible on the Ethereum blockchain produced by CapsuleCorp.
                     </div>
                     <div className='my-lg-auto col-12 offset-lg-1'>
                       <div className='common-container'>
