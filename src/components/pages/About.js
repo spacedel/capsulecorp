@@ -47,7 +47,7 @@ function About() {
                       <h3 className='mission-header'>Specs</h3>
                       <div className='col'>
                       <p>
-                        Each Capsule is unique and programmatically generated to create traits including Color, Type, Weight, Expiration, Number and more. All capsules are inspired by DBZ, some are rarer than others. The larger and more complex an item stored is, the higher the price. The Capsules are stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS. You will need a metamask wallet to purchase!
+                        Each Capsule is unique and programmatically generated to create traits including Color, Type, Weight, Expiration, Number and more. All capsules are inspired by DBZ, some are rarer than others. The Capsules are stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS. You will need a metamask wallet to purchase!
                       </p>
                       </div>
                       <div className='my-lg-auto col-lg-4 col-12 offset-lg-1'>
